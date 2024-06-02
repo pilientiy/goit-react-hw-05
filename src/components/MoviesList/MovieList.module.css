@@ -1,0 +1,32 @@
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+}
+
+.list li {
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.link:hover {
+  color: rgb(21, 84, 0);
+}
+
+.link:visited {
+  color: #4d5ae5;
+}
+
+.link:visited:hover {
+  color: orange;
+}
